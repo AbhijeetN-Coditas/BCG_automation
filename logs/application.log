@@ -324,3 +324,872 @@ Session ID: a0dbd53dd7db8823b46967a892a987d6
 2025-07-07 17:53:42 INFO  ExtentReportListener:45 - Test Passed: CreateProject
 2025-07-07 17:53:43 INFO  Step1:95 - Entered PAN: AAAAA0000AA
 2025-07-07 17:53:43 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 13:00:43 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 13:00:51 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 13:00:51 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 13:00:51 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 13:00:51 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 13:00:53 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 13:00:54 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 13:00:56 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 13:01:00 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 13:01:01 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:01:02 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 13:01:04 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:01:04 INFO  EntitySignIn:86 - OTP input field is displayed: true
+2025-08-28 13:01:16 INFO  EntitySignIn:77 - Entered OTP: 229206
+2025-08-28 13:01:21 INFO  EntitySignIn:100 - Clicked on OTP submit button
+2025-08-28 13:01:21 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 13:04:21 INFO  Dashboard:33 - Failed to click on Create Project: null
+2025-08-28 13:24:37 INFO  Step1:97 - Failed to enter PAN: AAAAA0000AA
+2025-08-28 13:42:01 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 13:42:04 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 13:42:04 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 13:42:04 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 13:42:04 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 13:42:07 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 13:42:08 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 13:42:09 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 13:42:12 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 13:42:12 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:42:13 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 13:42:16 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:42:27 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [583264c35d118aebf20e588a38af4003, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61195}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61195/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 583264c35d118aebf20e588a38af4003
+2025-08-28 13:42:27 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 13:42:28 INFO  Dashboard:33 - Failed to click on Create Project: null
+2025-08-28 13:42:48 INFO  Step1:97 - Failed to enter PAN: AAAAA0000AA
+2025-08-28 13:44:44 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 13:44:46 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 13:44:46 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 13:44:46 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 13:44:46 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 13:44:49 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 13:44:50 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 13:44:51 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 13:44:53 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 13:44:53 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:44:54 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 13:44:56 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:45:06 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ef576568320a0cbb17a2f6e62a2ed3f8, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54517}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54517/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef576568320a0cbb17a2f6e62a2ed3f8
+2025-08-28 13:45:06 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 13:45:06 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 13:45:07 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  505
+2025-08-28 13:45:07 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 13:45:07 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 13:45:11 INFO  Step1:95 - Entered PAN: AAAAA0000AA
+2025-08-28 13:45:11 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 13:52:49 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 13:52:52 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 13:52:52 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 13:52:52 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 13:52:52 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 13:52:54 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 13:52:55 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 13:52:56 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 13:52:58 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 13:52:58 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:52:59 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 13:52:59 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 13:53:09 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [00306ed5c07abe20a8c044c0ac965282, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52695/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00306ed5c07abe20a8c044c0ac965282
+2025-08-28 13:53:09 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 13:53:09 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 13:53:10 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  507
+2025-08-28 13:53:10 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 13:53:10 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 13:53:13 INFO  Step1:98 - Entered PAN: AAAAA0000AA
+2025-08-28 13:53:13 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 14:41:15 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 14:41:22 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 14:41:22 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 14:41:22 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 14:41:22 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 14:41:25 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 14:41:25 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 14:41:26 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 14:41:29 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 14:41:29 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 14:41:29 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 14:41:33 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 14:41:43 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06eb75ebe7e1187d69f3337926df7abb, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63446/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06eb75ebe7e1187d69f3337926df7abb
+2025-08-28 14:41:43 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 14:41:44 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 14:41:44 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  925
+2025-08-28 14:41:44 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 14:41:44 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 14:41:48 INFO  Step1:66 - Entered PAN: AAAAA0000AA
+2025-08-28 14:41:48 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 14:43:24 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 14:43:26 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 14:43:26 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 14:43:26 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 14:43:26 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 14:43:28 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 14:43:28 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 14:43:30 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 14:43:32 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 14:43:32 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 14:43:33 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 14:43:36 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 14:43:46 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31901f24deeffa140ff4920357d8ad2b, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31901f24deeffa140ff4920357d8ad2b
+2025-08-28 14:43:46 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 14:43:46 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 14:43:47 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  37
+2025-08-28 14:43:47 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 14:43:47 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 14:43:50 INFO  Step1:66 - Entered PAN: AAAAA0000AA
+2025-08-28 14:43:50 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 14:52:45 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 14:52:47 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 14:52:47 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 14:52:47 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 14:52:47 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 14:52:49 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 14:52:50 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 14:52:51 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 14:52:53 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 14:52:53 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 14:52:54 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 14:52:54 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 14:53:04 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b64cf41e7a373bf127a85b4cbb44f835, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49972/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b64cf41e7a373bf127a85b4cbb44f835
+2025-08-28 14:53:04 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 14:53:04 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 14:53:05 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  519
+2025-08-28 14:53:05 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 14:53:05 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 14:53:08 INFO  Step1:66 - Entered PAN: AAAAA0000AA
+2025-08-28 14:53:09 INFO  Step1:80 - Enter AlterNate Number: 1234567899
+2025-08-28 14:53:09 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 15:00:42 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 15:00:44 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 15:00:44 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 15:00:44 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 15:00:44 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 15:00:46 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 15:00:47 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 15:00:48 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 15:00:50 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 15:00:50 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:00:51 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 15:00:51 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:01:01 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d1d978e2b77c464ab226697af1cec68, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64404/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d1d978e2b77c464ab226697af1cec68
+2025-08-28 15:01:01 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 15:01:01 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 15:01:02 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  844
+2025-08-28 15:01:02 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 15:01:02 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 15:01:05 INFO  Step1:69 - Entered PAN: AAAAA0000AA
+2025-08-28 15:01:06 INFO  Step1:83 - Enter AlterNate Number: 1234567899
+2025-08-28 15:01:07 INFO  Step1:93 - Enter DesignationManager
+2025-08-28 15:01:07 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 15:01:32 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 15:01:34 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 15:01:35 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 15:01:35 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 15:01:35 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 15:01:37 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 15:01:38 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 15:01:39 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 15:01:40 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 15:01:41 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:01:41 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 15:01:41 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:01:51 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70d2643cfd2fa71926feafc83d95241d, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64537/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70d2643cfd2fa71926feafc83d95241d
+2025-08-28 15:01:51 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 15:01:52 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 15:01:52 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  887
+2025-08-28 15:01:52 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 15:01:52 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 15:01:56 INFO  Step1:69 - Entered PAN: AAAAA0000AA
+2025-08-28 15:01:57 INFO  Step1:83 - Enter AlterNate Number: 1234567899
+2025-08-28 15:01:58 INFO  Step1:93 - Enter DesignationManager
+2025-08-28 15:01:58 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 15:03:14 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 15:03:16 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 15:03:16 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 15:03:16 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 15:03:16 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 15:03:18 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 15:03:19 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 15:03:20 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 15:03:23 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 15:03:24 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:03:24 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 15:03:26 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:03:36 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d97cb017ce6241c94a386f17177c4de, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55732}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55732/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d97cb017ce6241c94a386f17177c4de
+2025-08-28 15:03:36 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 15:03:37 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 15:03:37 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  887
+2025-08-28 15:03:37 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 15:03:37 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 15:03:58 INFO  Step1:71 - Failed to enter PAN: AAAAA0000AA
+2025-08-28 15:11:06 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 15:11:08 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 15:11:08 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 15:11:08 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 15:11:08 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 15:11:10 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 15:11:11 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 15:11:12 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 15:11:16 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 15:11:16 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:11:17 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 15:11:17 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 15:11:27 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d50041e63a7022d84e5fc027873633a1, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58288/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d50041e63a7022d84e5fc027873633a1
+2025-08-28 15:11:27 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 15:11:27 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 15:11:28 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  535
+2025-08-28 15:11:28 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 15:11:28 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 15:11:31 INFO  Step1:69 - Entered PAN: AAAAA0000AA
+2025-08-28 15:11:32 INFO  Step1:83 - Enter AlterNate Number: 1234567899
+2025-08-28 15:11:33 INFO  Step1:93 - Enter DesignationManager
+2025-08-28 15:11:33 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:01:09 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:01:17 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:01:17 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:01:17 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:01:17 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:01:19 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:01:20 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:01:21 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:01:23 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:01:24 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:01:24 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:01:28 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:01:38 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5cd83bc293c803fdd76c85c0269a2c6e, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62402}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62402/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cd83bc293c803fdd76c85c0269a2c6e
+2025-08-28 16:01:38 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:01:38 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:01:39 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  508
+2025-08-28 16:01:39 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:01:39 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:01:43 INFO  Step1:71 - Entered PAN: AAAAA0000AA
+2025-08-28 16:01:44 INFO  Step1:85 - Enter AlterNate Number: 1234567899
+2025-08-28 16:01:45 INFO  Step1:95 - Enter DesignationManager
+2025-08-28 16:01:45 INFO  Step1:107 - Failed to upload file: C://Users//shail//Downloads//DummyFileUpload.pdf
+2025-08-28 16:02:32 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:02:35 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:02:35 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:02:35 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:02:35 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:02:37 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:02:38 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:02:39 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:02:41 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:02:42 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:02:42 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:02:42 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:02:52 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fe82ef3243b0bff0b498542dc9ada5a, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53917/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fe82ef3243b0bff0b498542dc9ada5a
+2025-08-28 16:02:52 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:02:52 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:02:53 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  487
+2025-08-28 16:02:53 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:02:53 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:02:57 INFO  Step1:71 - Entered PAN: AAAAA0000AA
+2025-08-28 16:02:58 INFO  Step1:85 - Enter AlterNate Number: 1234567899
+2025-08-28 16:02:59 INFO  Step1:95 - Enter DesignationManager
+2025-08-28 16:02:59 INFO  Step1:108 - Failed to upload file: C://Users//shail//Downloads//DummyFileUpload.pdf
+2025-08-28 16:03:57 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:04:01 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:04:01 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:04:01 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:04:01 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:04:03 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:04:04 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:04:06 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:04:08 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:04:09 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:04:09 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:04:12 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:04:22 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2deec777c644ca3d6bc7eb6656b4772, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60794}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60794/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2deec777c644ca3d6bc7eb6656b4772
+2025-08-28 16:04:22 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:04:22 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:04:23 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  747
+2025-08-28 16:04:23 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:04:23 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:04:27 INFO  Step1:71 - Entered PAN: AAAAA0000AA
+2025-08-28 16:04:29 INFO  Step1:85 - Enter AlterNate Number: 1234567899
+2025-08-28 16:04:30 INFO  Step1:95 - Enter DesignationManager
+2025-08-28 16:04:30 INFO  Step1:108 - Failed to upload file: C://Users//shail//Downloads//DummyFileUpload.pdf
+2025-08-28 16:18:35 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:18:39 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:18:39 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:18:39 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:18:39 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:18:41 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:18:42 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:18:44 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:18:47 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:18:47 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:18:48 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:18:52 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:19:02 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2620a058d77661783ba62dcaad1c21a5, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56434/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2620a058d77661783ba62dcaad1c21a5
+2025-08-28 16:19:02 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:19:02 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:19:03 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  132
+2025-08-28 16:19:04 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:19:04 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:19:08 INFO  Step1:75 - Entered PAN: AAAAA0000AA
+2025-08-28 16:19:10 INFO  Step1:89 - Enter AlterNate Number: 1234567899
+2025-08-28 16:19:11 INFO  Step1:99 - Enter DesignationManager
+2025-08-28 16:19:14 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:20:24 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:20:28 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:20:28 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:20:28 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:20:28 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:20:31 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:20:32 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:20:33 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:20:35 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:20:36 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:20:36 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:20:37 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:20:49 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [004bc1c0f779302314c0ed66a3702663, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65304/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 004bc1c0f779302314c0ed66a3702663
+2025-08-28 16:20:49 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:20:49 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:20:50 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  413
+2025-08-28 16:20:50 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:20:50 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:20:54 INFO  Step1:75 - Entered PAN: AAAAA0000AA
+2025-08-28 16:20:56 INFO  Step1:89 - Enter AlterNate Number: 1234567899
+2025-08-28 16:20:56 INFO  Step1:99 - Enter DesignationManager
+2025-08-28 16:21:00 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:27:09 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:27:13 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:27:13 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:27:13 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:27:13 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:27:16 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:27:17 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:27:18 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:27:21 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:27:22 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:27:22 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:27:26 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:27:36 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7fe47173e475be3216ab5a977949591, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49593/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7fe47173e475be3216ab5a977949591
+2025-08-28 16:27:36 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:27:36 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:27:37 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  90
+2025-08-28 16:27:38 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:27:38 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:27:42 INFO  Step1:76 - Entered PAN: AAAAA0000AA
+2025-08-28 16:27:44 INFO  Step1:90 - Enter AlterNate Number: 1234567899
+2025-08-28 16:27:45 INFO  Step1:100 - Enter DesignationManager
+2025-08-28 16:27:51 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:28:47 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:28:51 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:28:51 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:28:51 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:28:51 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:28:53 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:28:54 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:28:56 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:28:58 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:28:59 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:29:00 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:29:03 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:29:13 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d56c4c309beafb2921d44062d5784c9, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50726}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50726/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d56c4c309beafb2921d44062d5784c9
+2025-08-28 16:29:13 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:29:14 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:29:15 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  407
+2025-08-28 16:29:15 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:29:15 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:29:19 INFO  Step1:76 - Entered PAN: AAAAA0000AA
+2025-08-28 16:29:21 INFO  Step1:90 - Enter AlterNate Number: 1234567899
+2025-08-28 16:29:22 INFO  Step1:100 - Enter DesignationManager
+2025-08-28 16:29:29 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:31:11 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:31:15 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:31:15 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:31:15 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:31:15 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:31:18 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:31:19 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:31:20 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:31:23 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:31:23 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:31:24 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:31:27 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:31:37 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [113d01eafd2627d2d572eca778eba801, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55365/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 113d01eafd2627d2d572eca778eba801
+2025-08-28 16:31:37 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:31:37 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:31:39 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  666
+2025-08-28 16:31:39 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:31:39 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:31:43 INFO  Step1:76 - Entered PAN: AAAAA0000AA
+2025-08-28 16:31:45 INFO  Step1:90 - Enter AlterNate Number: 1234567899
+2025-08-28 16:31:46 INFO  Step1:100 - Enter DesignationManager
+2025-08-28 16:31:53 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:39:56 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:39:58 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:39:58 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:39:58 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:39:58 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:40:01 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:40:01 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:40:02 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:40:04 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:40:05 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:40:05 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:40:05 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:40:18 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31240f3f7d8a39b0a737c804ba1b5aa6, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31240f3f7d8a39b0a737c804ba1b5aa6
+2025-08-28 16:40:18 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:40:19 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:40:19 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  139
+2025-08-28 16:40:19 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:40:19 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:40:22 INFO  Step1:76 - Entered PAN: AAAAA0000AA
+2025-08-28 16:40:24 INFO  Step1:90 - Enter AlterNate Number: 1234567899
+2025-08-28 16:40:24 INFO  Step1:100 - Enter DesignationManager
+2025-08-28 16:40:29 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:54:23 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:54:25 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:54:25 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:54:25 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:54:25 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:54:25 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:54:28 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:54:30 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:54:32 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:54:32 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:54:32 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:54:36 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:54:46 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c61d9b37f494a5ebbd9d3c6b8104281, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52620}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52620/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c61d9b37f494a5ebbd9d3c6b8104281
+2025-08-28 16:54:46 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:54:46 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:54:47 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  225
+2025-08-28 16:54:47 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:54:47 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:54:51 INFO  Step1:77 - Entered PAN: AAAAA0000AA
+2025-08-28 16:54:52 INFO  Step1:91 - Enter AlterNate Number: 1234567899
+2025-08-28 16:54:53 INFO  Step1:101 - Enter DesignationManager
+2025-08-28 16:54:57 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:56:57 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:57:00 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:57:00 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:57:00 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:57:00 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:57:02 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:57:03 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:57:04 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:57:06 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:57:06 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:57:07 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:57:07 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:57:17 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fa0b102517436d255d7dcfc8e21ce06, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59679/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fa0b102517436d255d7dcfc8e21ce06
+2025-08-28 16:57:17 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:57:17 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:57:18 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  458
+2025-08-28 16:57:18 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:57:18 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:57:22 INFO  Step1:77 - Entered PAN: AAAAA0000AA
+2025-08-28 16:57:23 INFO  Step1:91 - Enter AlterNate Number: 1234567899
+2025-08-28 16:57:24 INFO  Step1:101 - Enter DesignationManager
+2025-08-28 16:57:28 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 16:58:04 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 16:58:06 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 16:58:06 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 16:58:06 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 16:58:06 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 16:58:09 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 16:58:09 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 16:58:11 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 16:58:13 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 16:58:14 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:58:14 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 16:58:16 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 16:58:26 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26a966a586e847a1ce21fc78018605d9, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52781/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26a966a586e847a1ce21fc78018605d9
+2025-08-28 16:58:26 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 16:58:26 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 16:58:27 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  439
+2025-08-28 16:58:27 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 16:58:27 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 16:58:31 INFO  Step1:77 - Entered PAN: AAAAA0000AA
+2025-08-28 16:58:32 INFO  Step1:91 - Enter AlterNate Number: 1234567899
+2025-08-28 16:58:33 INFO  Step1:101 - Enter DesignationManager
+2025-08-28 16:58:43 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 17:06:12 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:06:20 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:06:20 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:06:20 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:06:20 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:06:22 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:06:23 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:06:24 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:06:26 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:06:27 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:06:27 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:06:27 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:06:37 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5874f6d0e1115d245965bdf4fc290d9e, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57751}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57751/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5874f6d0e1115d245965bdf4fc290d9e
+2025-08-28 17:06:37 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:06:37 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:06:38 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  515
+2025-08-28 17:06:38 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:06:38 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:06:42 INFO  Step1:83 - Entered PAN: AAAAA0000AA
+2025-08-28 17:06:43 INFO  Step1:97 - Enter AlterNate Number: 1234567899
+2025-08-28 17:06:44 INFO  Step1:107 - Enter DesignationManager
+2025-08-28 17:06:54 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 17:14:07 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:14:10 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:14:10 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:14:10 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:14:10 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:14:12 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:14:13 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:14:14 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:14:16 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:14:16 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:14:17 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:14:19 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:14:29 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [035abcb7b6f30c7865cc8d8341db20db, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61418/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 035abcb7b6f30c7865cc8d8341db20db
+2025-08-28 17:14:29 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:14:29 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:14:30 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  398
+2025-08-28 17:14:30 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:14:30 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:14:34 INFO  Step1:83 - Entered PAN: AAAAA0000AA
+2025-08-28 17:14:35 INFO  Step1:97 - Enter AlterNate Number: 1234567899
+2025-08-28 17:14:36 INFO  Step1:107 - Enter DesignationManager
+2025-08-28 17:14:46 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 17:16:18 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:16:20 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:16:20 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:16:20 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:16:20 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:16:23 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:16:23 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:16:25 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:16:27 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:16:27 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:16:28 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:16:30 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:16:40 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0df2166d5736882e2b587a8e26288ab, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49175/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0df2166d5736882e2b587a8e26288ab
+2025-08-28 17:16:40 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:16:41 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:16:41 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  565
+2025-08-28 17:16:41 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:16:41 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:16:45 INFO  Step1:83 - Entered PAN: AAAAA0000AA
+2025-08-28 17:16:46 INFO  Step1:97 - Enter AlterNate Number: 1234567899
+2025-08-28 17:16:47 INFO  Step1:107 - Enter DesignationManager
+2025-08-28 17:16:57 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 17:18:34 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:18:37 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:18:37 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:18:37 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:18:37 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:18:39 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:18:40 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:18:41 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:18:44 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:18:45 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:18:45 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:18:45 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:18:57 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14b47139e8601d32ea2cbeed6dd0c32f, findElement {using=id, value=a_otp_1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53901/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14b47139e8601d32ea2cbeed6dd0c32f
+2025-08-28 17:18:58 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:18:58 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:18:58 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  366
+2025-08-28 17:18:59 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:18:59 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:19:03 INFO  Step1:83 - Entered PAN: AAAAA0000AA
+2025-08-28 17:19:04 INFO  Step1:97 - Enter AlterNate Number: 1234567899
+2025-08-28 17:19:04 INFO  Step1:107 - Enter DesignationManager
+2025-08-28 17:19:37 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 17:22:29 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:22:31 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:22:31 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:22:31 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:22:31 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:22:34 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:22:35 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:22:36 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:22:38 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:22:38 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:22:39 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:22:39 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:22:52 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3497d585d6ef7e403215b9c0c2d99d38, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51183/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3497d585d6ef7e403215b9c0c2d99d38
+2025-08-28 17:22:52 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:22:52 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:22:53 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  472
+2025-08-28 17:22:53 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:22:53 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:22:57 INFO  Step1:84 - Entered PAN: AAAAA0000AA
+2025-08-28 17:22:58 INFO  Step1:98 - Enter AlterNate Number: 1234567899
+2025-08-28 17:22:59 INFO  Step1:108 - Enter DesignationManager
+2025-08-28 17:24:18 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:24:20 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:24:20 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:24:20 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:24:20 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:24:23 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:24:23 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:24:24 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:24:27 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:24:27 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:24:28 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:24:31 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:24:41 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [203ced0ceb5f4964951768c1beee928f, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54131/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 203ced0ceb5f4964951768c1beee928f
+2025-08-28 17:24:41 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:24:41 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:24:42 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  59
+2025-08-28 17:24:42 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:24:42 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:24:45 INFO  Step1:84 - Entered PAN: AAAAA0000AA
+2025-08-28 17:24:47 INFO  Step1:98 - Enter AlterNate Number: 1234567899
+2025-08-28 17:24:47 INFO  Step1:108 - Enter DesignationManager
+2025-08-28 17:24:56 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-28 17:38:01 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-28 17:38:05 INFO  ObjectRepository:24 - Login page object created
+2025-08-28 17:38:05 INFO  ObjectRepository:33 - Login page object created
+2025-08-28 17:38:05 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-28 17:38:05 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-28 17:38:08 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-28 17:38:09 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-28 17:38:10 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-28 17:38:12 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-28 17:38:13 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:38:13 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-28 17:38:17 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-28 17:38:27 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3312a2aaa89fd222782893d3d6a025a, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\shail\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50496}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50496/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3312a2aaa89fd222782893d3d6a025a
+2025-08-28 17:38:27 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-28 17:38:27 INFO  Dashboard:31 - Clicked on Create Project
+2025-08-28 17:38:29 INFO  Dashboard:40 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  122
+2025-08-28 17:38:29 INFO  Dashboard:49 - Clicked on Save button
+2025-08-28 17:38:29 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-28 17:38:33 INFO  Step1:84 - Entered PAN: AAAAA0000AA
+2025-08-28 17:38:35 INFO  Step1:98 - Enter AlterNate Number: 1234567899
+2025-08-28 17:38:36 INFO  Step1:108 - Enter DesignationManager
+2025-08-28 17:38:45 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
