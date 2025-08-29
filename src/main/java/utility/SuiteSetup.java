@@ -20,7 +20,7 @@ public class SuiteSetup  extends Constants {
     @BeforeSuite
     public void preRequisite(String browser) {
         configureLogger();
-        TestData.SetOrderData(readExcelAsTestCases(InputExcelFile,"Sheet1"));
+        //TestData.SetOrderData(readExcelAsTestCases(InputExcelFile,"Sheet1"));
         ConfigDriver.setDriver(browser);
         pageInitialize();
     }
