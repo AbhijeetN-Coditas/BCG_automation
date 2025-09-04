@@ -4,6 +4,7 @@ import data.TestData;
 import org.testng.annotations.Test;
 import utility.BaseTest;
 
+import java.awt.*;
 import java.io.IOException;
 import java.util.Map;
 
@@ -11,9 +12,23 @@ import java.util.Map;
 public class Step1Form extends BaseTest {
 
     @Test(priority = 3, description = "Submit step1 with invalid data", groups = {"Login" })
-    public void CreateProjectWithInvalidData() throws IOException {
-        Map<String,String> data= TestData.GetOrderData().get("Invalid Data");
-        step1.enterPAN(data.get("Permanent Account Number (PAN)*"));
+    public void CreateProjectWithInvalidData() throws IOException, InterruptedException, AWTException {
+        step1.enterLLPIncorporationNumber("ABC1234");
+        //step1.enterCINHoldingCompany("sagagg");
+        step1.subsidaryOfAnotherCompany();
+        step1.enterAlternateContact("1234567899");
+        step1.enterDesignation("Manager");
+        step1.uploadCertificateOfRegistration("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        //System.out.println(driver.getPageSource());
+        step1.uploadDeclarationOfLegal("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.uploadSupportingDoc("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.uploadLatestAuditedUpload("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.financialStatement();
+        step1.upload1FinanceReport("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.upload2FinanceReport("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.upload3FinanceReport("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.clickAssociationType();
+        step1.clickNext();
 
     }
 }

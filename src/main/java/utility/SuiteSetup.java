@@ -1,7 +1,6 @@
 package utility;
 
 import constants.Constants;
-import constants.Constants.*;
 import data.TestData;
 import driverRepo.ConfigDriver;
 import org.apache.log4j.Logger;

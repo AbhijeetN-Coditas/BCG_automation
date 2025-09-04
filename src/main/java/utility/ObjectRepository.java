@@ -2,10 +2,7 @@ package utility;
 
 import driverRepo.ConfigDriver;
 import org.apache.log4j.Logger;
-import pages.Dashboard;
-import pages.EntitySignIn;
-import pages.Projects;
-import pages.Step1;
+import pages.*;
 
 public class ObjectRepository {
 
@@ -15,6 +12,7 @@ public class ObjectRepository {
     public static ThreadLocal<EntitySignIn> EntitySignInScreen = new ThreadLocal<EntitySignIn>();
     public static ThreadLocal<Dashboard> DashboardScreen = new ThreadLocal<Dashboard>();
     public static ThreadLocal<Step1> Step1Screen = new ThreadLocal<Step1>();
+    public static ThreadLocal<Step2_Flow1> Step2Screen = new ThreadLocal<>();
 
     public static Projects ProjectInstance() {
         if (ProjectsScreen.get() == null) // if Login page object not created then create store for further use
@@ -51,5 +49,14 @@ public class ObjectRepository {
             log.info("Step1 page object created");
         }
         return Step1Screen.get();
+    }
+    public static Step2_Flow1 Step2_Flow1Instance(){
+        if(Step2Screen.get() == null)
+        {
+            Step2Screen.set(new Step2_Flow1(ConfigDriver.getDriver()));
+
+            log.info("Step2_Flow1 page object created");
+        }
+        return Step2Screen.get();
     }
 }

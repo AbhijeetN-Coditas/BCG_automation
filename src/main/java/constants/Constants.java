@@ -1,9 +1,7 @@
 package constants;
 
-import pages.Dashboard;
-import pages.EntitySignIn;
-import pages.Projects;
-import pages.Step1;
+import pages.*;
+import utility.FileUpload;
 
 import java.io.File;
 
@@ -29,6 +27,8 @@ public class Constants {
     protected static EntitySignIn entitySignIn;
     protected static Dashboard dashboard;
     protected static Step1 step1;
+    protected static Step2_Flow1 step2Flow1;
+    protected static FileUpload fileUpload;
     public static String harshadAppPass = "jhgk qdat cgmp yltp";
     public static String harshadEmail = "harshadbadre3@gmail.com";
 }
