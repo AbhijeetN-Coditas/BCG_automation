@@ -23,6 +23,8 @@ public class Constants {
 
     public static final String userConfig1 = System.getProperty("user.dir") + File.separator + "email.properties";
 
+    public static final String pdfFilePath = System.getProperty("user.dir") + File.separator
+            + "dummydummydummydummydummydummydummydummydummydummy.pdf";
     protected static Projects projects;
     protected static EntitySignIn entitySignIn;
     protected static Dashboard dashboard;
@@ -30,6 +32,6 @@ public class Constants {
     protected static Step2_Flow1 step2Flow1;
     protected static Step3 step3;
     protected static FileUpload fileUpload;
-    public static String harshadAppPass = "jhgk qdat cgmp yltp";
-    public static String harshadEmail = "harshadbadre3@gmail.com";
+    public static String harshadAppPass;
+    public static String harshadEmail;
 }

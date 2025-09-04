@@ -9,7 +9,9 @@ public class Step2_Flow1 extends BaseTest {
     public void step2Flow1(){
 
         step2Flow1.step2();
-        step2Flow1.researchprojectPriority();
+        step2Flow1.selectResearchProjectPriority(0);
+        step2Flow1.selectResearchProjectSubPriorityArea(0);
+        step2Flow1.selectStrategicPriorityInnovationsArea(0);
     }
 
 }

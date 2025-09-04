@@ -1,5 +1,6 @@
 package listners;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import driverRepo.ConfigDriver;
 import org.apache.log4j.Logger;
@@ -14,6 +15,7 @@ import static constants.Constants.ExtendReportPath;
 
 public class ExtentReportListener implements ITestListener, ISuiteListener {
     private Logger log = Logger.getLogger(ExtentReportListener.class);
+    private static ThreadLocal<ExtentTest> logger = new ThreadLocal<>();
     private com.aventstack.extentreports.ExtentReports report;
     private ExtentSparkReporter htmlreport;
     @Override
@@ -44,6 +46,10 @@ public class ExtentReportListener implements ITestListener, ISuiteListener {
     public synchronized void onTestSuccess(ITestResult result) {
         log.info("Test Passed: " + result.getName());
         report.createTest(result.getName()).pass("Test passed successfully");
+    }
+
+    public static synchronized void logger(String str) {
+        logger.get().info(str);
     }
 
     }

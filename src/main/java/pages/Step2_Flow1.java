@@ -1,5 +1,6 @@
 package pages;
 
+import listners.ExtentReportListener;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import utility.FileUpload;
 import java.util.List;
 import static utility.GenericMethods.selectRandomElement;
@@ -86,62 +88,45 @@ public class Step2_Flow1 {
         step2start.click();
     }
 
-    public void researchprojectPriority(){
-        researchprojectdropdown.click();
-//        WebElement option=selectRandomElement(researchProjectPriorityDropdownAllOptions);
-//        String text= option.getText();
-//        log.info("Option selected : "+ text);
-//        if(text.equals("New Chemical Entity")){
-//            researchProjectSubPriority();
-//        }
-
-        newChemicalEntitydropdown.click();
-        newChemicalEntityOption();
-    }
-
-//    public void researchProjectSubPriority(){
-//
-//
-//    }
-
-    public void newChemicalEntityOption(){
-        Sub_PriorityAreaDropdown.click();
-        WebElement subPriorityOption = selectRandomElement(researchProjectSubPriorityDropdownAllOptions);
-        String text = subPriorityOption.getText();
-        subPriorityOption.click();
-        log.info("Sub-Priority Option clicked.");
-
-        StrategicPriorityInnovations.click();
-        //WebElement SPIOption = selectRandomElement(SPIDropdownOptions);
-        //SPIOption.click();
-        List<String> selectedOptionsTexts =selectRandomMultipleOptions(SPIDropdownOptions, 1);
-        Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.ESCAPE).perform();
-
-        for (String textt : selectedOptionsTexts) {
-            //String textt = texttt.trim();
-            System.out.println("Processing dependent dropdown for: " + textt);
-
-            if (textt.equalsIgnoreCase("Neglected Tropical Diseases relevant to India")) {
-                selectRandomMultipleOptions(NeglectedTropicalDiseaseDropdown, 0);
-            }
-            else if (textt.equalsIgnoreCase("Rare Disease in India")) {
-                selectRandomMultipleOptions(RareDiseaseDropdown, 0);
-            }
-            else if (textt.equalsIgnoreCase("Antimicrobial resistance priority pathogens")) {
-                selectRandomMultipleOptions(AntimicrobialResistancePriorityPathogensDropdown, 0);
-            }
-            else if (textt.equalsIgnoreCase("Pandemic Preparedness priority pathogens")) {
-                selectRandomMultipleOptions(PandemicPreparednessPriorityPathogensDropdown, 0);
-            }
-            else if (textt.equalsIgnoreCase("Vaccine for vaccine–preventable diseases")) {
-                selectRandomMultipleOptions(VaccineForVaccinePreventableDiseasesDropdown, 0);
-            }
-            else {
-                System.out.println("No matching dependent dropdown found for: " + textt);
-            }
+    public void selectResearchProjectPriority(int optionidx){
+        try{
+            researchprojectdropdown.click();
+            log.info("Research Project Priority dropdown clicked.");
+            researchProjectPriorityDropdownAllOptions.get(optionidx).click();
+            log.info("Research Project Priority option selected.");
+        } catch (Exception e) {
+            log.info("Unable to select Research Project Priority dropdown option: " + e.getMessage());
+            ExtentReportListener.logger("Unable to select Research Project Priority dropdown option: " + e.getMessage());
+            Assert.fail("Unable to select Research Project Priority dropdown option");
         }
     }
 
 
+    public void selectResearchProjectSubPriorityArea(int optionidx){
+        try{
+            Sub_PriorityAreaDropdown.click();
+            log.info("Research Project sub Priority dropdown clicked.");
+            researchProjectSubPriorityDropdownAllOptions.get(optionidx).click();
+            log.info("Research Project sub Priority option selected.");
+        } catch (Exception e) {
+            log.info("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
+            ExtentReportListener.logger("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
+            Assert.fail("Unable to select Research sub Project Priority dropdown option");
+        }
+    }
+
+    public void selectStrategicPriorityInnovationsArea(int optionidx){
+        try{
+            StrategicPriorityInnovations.click();
+            log.info("Strategic Priority Innovations dropdown clicked.");
+            SPIDropdownOptions.get(optionidx).click();
+            log.info("Strategic Priority Innovations option selected.");
+        } catch (Exception e) {
+            log.info("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
+            ExtentReportListener.logger("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
+            Assert.fail("Unable to select Research sub Project Priority dropdown option");
+        }
+    }
+
+    
 }
