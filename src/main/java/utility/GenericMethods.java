@@ -4,9 +4,11 @@ import driverRepo.ConfigDriver;
 import listners.ExtentReportListener;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.ui.*;
 
 import java.time.Duration;
+import java.util.*;
 
 public class GenericMethods {
     private static Logger log = Logger.getLogger(ExtentReportListener.class);
@@ -90,6 +92,97 @@ public class GenericMethods {
             log.error("Error while closing upload popup using FluentWait: " + e.getMessage());
         }
     }
+
+    public static WebElement selectRandomElement(List<WebElement> elements) {
+        if (elements == null || elements.isEmpty()) {
+            log.error("The list is empty or null!");
+            throw new IllegalArgumentException("The list is empty or null!");
+        }
+
+        Random random = new Random();
+        int randomIndex = random.nextInt(elements.size()); // Generate random index
+        WebElement randomElement = elements.get(randomIndex);
+        log.info("Random option selected");
+        return randomElement;
+    }
+
+//    public static List<String> selectRandomMultipleOptions(List<WebElement> elements, int numberOfExcludedOption) {
+//
+//        List<String> options=new ArrayList<>();
+//
+//        if (elements == null || elements.isEmpty()) {
+//            throw new IllegalArgumentException("The list is empty or null!");
+//        }
+//
+//        Random random = new Random();
+//
+//        int totalOptions = elements.size() - numberOfExcludedOption; // Ignoring last option
+//        // Random count of selections (between 1 and total options)
+//        int numberOfSelections = random.nextInt(totalOptions) + 1;
+//
+//        System.out.println("Selecting " + numberOfSelections + " random options.");
+//
+//        // Use a Set to avoid duplicates
+//        Set<Integer> selectedIndexes = new HashSet<>();
+//
+//        while (selectedIndexes.size() < numberOfSelections) {
+//            int randomIndex = random.nextInt(totalOptions);
+//            selectedIndexes.add(randomIndex);
+//        }
+//
+//        // Select those options
+//        for (int index : selectedIndexes) {
+//            WebElement option=elements.get(index);
+//            option.click();
+//            options.add(option.getText());
+//            log.info("Options Selected : " +option.getText());
+//            System.out.println("Selected option: " + option.getText());
+//        }
+//        return options;
+//    }
+
+    public static List<String> selectRandomMultipleOptions(List<WebElement> elements, int numberOfExcludedOption) {
+        List<String> options = new ArrayList<>();
+
+        if (elements == null || elements.isEmpty()) {
+            throw new IllegalArgumentException("The list is empty or null!");
+        }
+
+        Random random = new Random();
+
+        // Make sure we don't exclude more than available
+        if (numberOfExcludedOption >= elements.size()) {
+            throw new IllegalArgumentException("Excluded options exceed available options!");
+        }
+
+        // Exclude last N elements
+        List<WebElement> availableElements = elements.subList(0, elements.size() - numberOfExcludedOption);
+
+        int totalOptions = availableElements.size();
+        int numberOfSelections = random.nextInt(totalOptions) + 1; // select 1 → totalOptions
+
+        System.out.println("Selecting " + numberOfSelections + " random options.");
+
+        Set<Integer> selectedIndexes = new HashSet<>();
+
+        while (selectedIndexes.size() < numberOfSelections) {
+            int randomIndex = random.nextInt(totalOptions); // safe, because we use subList
+            selectedIndexes.add(randomIndex);
+        }
+
+        for (int index : selectedIndexes) {
+            WebElement option = availableElements.get(index); // ✅ no out of bounds
+            option.click();
+            options.add(option.getText());
+            log.info("Options Selected : " + option.getText());
+            System.out.println("Selected option: " + option.getText());
+        }
+        return options;
+    }
+
+
+
+
 
 
 

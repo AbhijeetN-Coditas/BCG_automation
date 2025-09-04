@@ -30,6 +30,7 @@ public class SuiteSetup  extends Constants {
         entitySignIn = ObjectRepository.EntitySignInInstance();
         dashboard = ObjectRepository.DashboardInstance();
         step1 = ObjectRepository.Step1Instance();
+        step2Flow1 = ObjectRepository.Step2_Flow1Instance();
     }
     private void configureLogger() {
 
@@ -39,6 +40,7 @@ public class SuiteSetup  extends Constants {
 
         log.info("Configured Logger File");
     }
+
 
 //    @AfterSuite
 //    public void postRequisite() {

@@ -10,7 +10,8 @@
      <classes>
          <class name="test.EntityLogin"/>
 		 <class name="test.CreateProject"/>
-		 <class name="test.Step1Form"/>
+<!--		 <class name="test.Step1Form"/>-->
+		 <class name="test.Step2_Flow1"/>
 
 	 </classes>
   	</test> 

@@ -12,14 +12,16 @@ public class FileUpload {
     public void fileUpload(String filePath, WebElement element) throws AWTException, InterruptedException {
         // Click the label to open the file chooser dialog
         element.click();
-        Thread.sleep(2000); // Wait for the dialog to appear
+        Robot robot = new Robot();
+        //Thread.sleep(2000); // Wait for the dialog to appear
+        robot.delay(2000);
 
         // Set the file path in the system clipboard
         StringSelection selection = new StringSelection(filePath);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 
         // Use Robot class to simulate keyboard actions
-        Robot robot = new Robot();
+
 
         // Press CTRL + V
         robot.keyPress(KeyEvent.VK_CONTROL);
