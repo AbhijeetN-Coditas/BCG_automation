@@ -18,17 +18,18 @@ public class Step1Form extends BaseTest {
         step1.subsidaryOfAnotherCompany();
         step1.enterAlternateContact("1234567899");
         step1.enterDesignation("Manager");
-        step1.uploadCertificateOfRegistration("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.uploadCertificateOfRegistration(pdfFilePath);
         //System.out.println(driver.getPageSource());
-        step1.uploadDeclarationOfLegal("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
-        step1.uploadSupportingDoc("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
-        step1.uploadLatestAuditedUpload("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.uploadDeclarationOfLegal(pdfFilePath);
+        step1.uploadSupportingDoc(pdfFilePath);
+        step1.uploadLatestAuditedUpload(pdfFilePath);
         step1.financialStatement();
-        step1.upload1FinanceReport("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
-        step1.upload2FinanceReport("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
-        step1.upload3FinanceReport("C:\\Users\\Coditas-Admin\\Downloads\\Dummy2.pdf");
+        step1.upload1FinanceReport(pdfFilePath);
+        step1.upload2FinanceReport(pdfFilePath);
+        step1.upload3FinanceReport(pdfFilePath);
         step1.clickAssociationType();
         step1.clickNext();
+
 
     }
 }

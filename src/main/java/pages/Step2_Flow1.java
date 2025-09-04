@@ -1,5 +1,6 @@
 package pages;
 
+import listners.ExtentReportListener;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import utility.FileUpload;
 import java.util.List;
 import static utility.GenericMethods.selectRandomElement;
@@ -86,23 +88,33 @@ public class Step2_Flow1 {
         step2start.click();
     }
 
+    public void selectResearchProjectPriority(int optionidx){
+        try{
+            researchprojectdropdown.click();
+            log.info("Research Project Priority dropdown clicked.");
+            researchProjectPriorityDropdownAllOptions.get(optionidx).click();
+        } catch (Exception e) {
+            log.info("Unable to select Research Project Priority dropdown option: " + e.getMessage());
+            ExtentReportListener.logger("Unable to select Research Project Priority dropdown option: " + e.getMessage());
+            Assert.fail("Unable to select Research Project Priority dropdown option");
+        }
+
+    }
+
     public void researchprojectPriority(){
         researchprojectdropdown.click();
-//        WebElement option=selectRandomElement(researchProjectPriorityDropdownAllOptions);
-//        String text= option.getText();
-//        log.info("Option selected : "+ text);
-//        if(text.equals("New Chemical Entity")){
-//            researchProjectSubPriority();
-//        }
+
+        WebElement option=selectRandomElement(researchProjectPriorityDropdownAllOptions);
+        String text= option.getText();
+        log.info("Option selected : "+ text);
+        if(text.equals("New Chemical Entity")){
+           // researchProjectSubPriority();
+        }
 
         newChemicalEntitydropdown.click();
         newChemicalEntityOption();
     }
 
-//    public void researchProjectSubPriority(){
-//
-//
-//    }
 
     public void newChemicalEntityOption(){
         Sub_PriorityAreaDropdown.click();
