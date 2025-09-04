@@ -733,3 +733,35 @@ Disorders amenable to organ transplantation
 2025-09-04 14:42:05 INFO  ExtentReportListener:177 - Options Selected : G1006
 Disorders amenable to treatment with Hematopoietic Stem Cell Transplantation (HSCT)
 >>Tyrosinemia
+2025-09-04 15:04:40 INFO  SuiteSetup:54 - Configured Logger File
+2025-09-04 15:04:44 INFO  ObjectRepository:22 - Login page object created
+2025-09-04 15:04:44 INFO  ObjectRepository:31 - Login page object created
+2025-09-04 15:04:44 INFO  ObjectRepository:40 - Dashboard page object created
+2025-09-04 15:04:44 INFO  ObjectRepository:49 - Step1 page object created
+2025-09-04 15:04:44 INFO  ObjectRepository:58 - Step2_Flow1 page object created
+2025-09-04 15:04:47 INFO  ExtentReportListener:43 - URL launched: https://eoi.coditas.org/
+2025-09-04 15:04:48 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-09-04 15:04:49 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-09-04 15:04:52 INFO  EntitySignIn:50 - Entered mobile number: 8007939513
+2025-09-04 15:04:53 INFO  EntitySignIn:59 - Clicked on Next button
+2025-09-04 15:04:53 INFO  EntitySignIn:68 - Entered profile pin: 020890
+2025-09-04 15:04:53 INFO  EntitySignIn:59 - Clicked on Next button
+2025-09-04 15:05:07 INFO  EntitySignIn:89 - OTP input not displayed : no such element: Unable to locate element: {"method":"css selector","selector":"#a_otp_1"}
+  (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bdbaeb13ab1eb6038c4595896cc31a9, findElement {value=a_otp_1, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\CODITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52470}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52470/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bdbaeb13ab1eb6038c4595896cc31a9
+2025-09-04 15:05:07 INFO  ExtentReportListener:47 - Test Passed: Login
+2025-09-04 15:05:07 INFO  Dashboard:32 - Clicked on Create Project
+2025-09-04 15:05:08 INFO  Dashboard:41 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  502
+2025-09-04 15:05:08 INFO  Dashboard:50 - Clicked on Save button
+2025-09-04 15:05:08 INFO  ExtentReportListener:47 - Test Passed: CreateProject
+2025-09-04 15:05:11 INFO  Step1:94 - Research Project Priority dropdown clicked.
+2025-09-04 15:05:12 INFO  Step1:96 - Research Project Priority option selected.
+2025-09-04 15:05:12 INFO  Step1:108 - Research Project sub Priority dropdown clicked.
+2025-09-04 15:05:12 INFO  Step1:110 - Research Project sub Priority option selected.
+2025-09-04 15:05:12 INFO  ExtentReportListener:47 - Test Passed: step2Flow1
