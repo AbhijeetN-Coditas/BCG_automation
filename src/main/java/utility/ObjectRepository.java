@@ -13,6 +13,7 @@ public class ObjectRepository {
     public static ThreadLocal<Dashboard> DashboardScreen = new ThreadLocal<Dashboard>();
     public static ThreadLocal<Step1> Step1Screen = new ThreadLocal<Step1>();
     public static ThreadLocal<Step2_Flow1> Step2Screen = new ThreadLocal<>();
+    public static ThreadLocal<Step3> Step3Screen = new ThreadLocal<>();
 
     public static Projects ProjectInstance() {
         if (ProjectsScreen.get() == null) // if Login page object not created then create store for further use
@@ -58,5 +59,14 @@ public class ObjectRepository {
             log.info("Step2_Flow1 page object created");
         }
         return Step2Screen.get();
+    }
+    public static Step3 Step3Instance(){
+        if(Step3Screen.get() == null)
+        {
+            Step3Screen.set(new Step3(ConfigDriver.getDriver()));
+
+            log.info("Step2_Flow1 page object created");
+        }
+        return Step3Screen.get();
     }
 }

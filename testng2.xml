@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="false" >
+<!-- Environment values : Sauce or Local-->
+<parameter name="Browser" value="Chrome"></parameter>
+	<listeners>
+		<listener class-name="listners.ExtentReportListener" />
+	</listeners>
+	 	<test thread-count="1"  name="Academia" preserve-order="true" >
+     <classes>
+         <class name="test.EntityLogin"/>
+		 <class name="test.CreateProject"/>
+<!--		 <class name="test.Step1Form"/>-->
+		 <class name="test.Step2_Flow1"/>
+
+	 </classes>
+  	</test> 
+
+</suite>
+
+
+
+

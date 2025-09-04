@@ -28,6 +28,7 @@ public class Constants {
     protected static Dashboard dashboard;
     protected static Step1 step1;
     protected static Step2_Flow1 step2Flow1;
+    protected static Step3 step3;
     protected static FileUpload fileUpload;
     public static String harshadAppPass = "jhgk qdat cgmp yltp";
     public static String harshadEmail = "harshadbadre3@gmail.com";
