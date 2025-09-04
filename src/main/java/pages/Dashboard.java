@@ -25,6 +25,7 @@ public class Dashboard {
     @FindBy(xpath = "//button[text()='Save']")
     private WebElement saveButton;
 
+
     public void clickOnCreateProject() {
         try {
             click(createProject);
