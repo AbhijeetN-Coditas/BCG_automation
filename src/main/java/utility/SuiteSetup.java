@@ -1,6 +1,7 @@
 package utility;
 
 import constants.Constants;
+import constants.Constants.*;
 import data.TestData;
 import driverRepo.ConfigDriver;
 import org.apache.log4j.Logger;
@@ -10,6 +11,11 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import static utility.ReadExcel.readExcelAsTestCases;
 
 
@@ -18,8 +24,16 @@ public class SuiteSetup  extends Constants {
 
     @Parameters("Browser")
     @BeforeSuite
-    public void preRequisite(String browser) {
+    public void preRequisite(String browser) throws IOException {
         configureLogger();
+
+        Properties prop = new Properties();
+
+        FileInputStream is = new FileInputStream(new File(userConfig1));
+
+        prop.load(is);
+        Constants.harshadAppPass=prop.getProperty("mail");
+        Constants.harshadEmail=prop.getProperty("pass");
         TestData.SetOrderData(readExcelAsTestCases(InputExcelFile,"Sheet1"));
         ConfigDriver.setDriver(browser);
         pageInitialize();

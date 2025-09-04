@@ -23,6 +23,8 @@ public class Constants {
 
     public static final String userConfig = System.getProperty("user.dir") + File.separator + "user.properties";
 
+    public static final String userConfig1 = System.getProperty("user.dir") + File.separator + "email.properties";
+
     protected static Projects projects;
     protected static EntitySignIn entitySignIn;
     protected static Dashboard dashboard;

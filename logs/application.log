@@ -324,3 +324,26 @@ Session ID: a0dbd53dd7db8823b46967a892a987d6
 2025-07-07 17:53:42 INFO  ExtentReportListener:45 - Test Passed: CreateProject
 2025-07-07 17:53:43 INFO  Step1:95 - Entered PAN: AAAAA0000AA
 2025-07-07 17:53:43 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-08-27 16:26:25 INFO  SuiteSetup:40 - Configured Logger File
+2025-08-27 16:26:50 INFO  ObjectRepository:24 - Login page object created
+2025-08-27 16:26:50 INFO  ObjectRepository:33 - Login page object created
+2025-08-27 16:26:50 INFO  ObjectRepository:42 - Dashboard page object created
+2025-08-27 16:26:50 INFO  ObjectRepository:51 - Step1 page object created
+2025-08-27 16:26:52 INFO  ExtentReportListener:45 - URL launched: https://eoi.coditas.org/
+2025-08-27 16:26:53 INFO  Projects:47 - clicked on applicant sign up/sign in button
+2025-08-27 16:26:54 INFO  EntitySignIn:40 - clicked on Entity locker sign in button
+2025-08-27 16:26:58 INFO  EntitySignIn:50 - Entered mobile number: 8149260522
+2025-08-27 16:26:59 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-27 16:26:59 INFO  EntitySignIn:68 - Entered profile pin: 747259
+2025-08-27 16:26:59 INFO  EntitySignIn:59 - Clicked on Next button
+2025-08-27 16:27:01 INFO  EntitySignIn:86 - OTP input field is displayed: true
+2025-08-27 16:27:13 INFO  EntitySignIn:77 - Entered OTP: 199561
+2025-08-27 16:27:17 INFO  EntitySignIn:100 - Clicked on OTP submit button
+2025-08-27 16:27:17 INFO  ExtentReportListener:45 - Test Passed: Login
+2025-08-27 16:30:04 INFO  Dashboard:32 - Clicked on Create Project
+2025-08-27 16:30:05 INFO  Dashboard:41 - Entered project name: Development of a Scalable and Secure Cloud-Native Platform for Real-Time Analytics, Monitoring, and Automated Decision-Making Across Industries  889
+2025-08-27 16:30:05 INFO  Dashboard:50 - Clicked on Save button
+2025-08-27 16:30:05 INFO  ExtentReportListener:45 - Test Passed: CreateProject
+2025-08-27 16:30:08 INFO  Step1:95 - Entered PAN: AAAAA0000AA
+2025-08-27 16:30:08 INFO  ExtentReportListener:45 - Test Passed: CreateProjectWithInvalidData
+2025-09-04 12:10:19 INFO  SuiteSetup:54 - Configured Logger File
