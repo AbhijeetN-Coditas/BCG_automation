@@ -11,7 +11,8 @@
          <class name="test.EntityLogin"/>
 		 <class name="test.CreateProject"/>
 <!--		 <class name="test.Step1Form"/>-->
-		 <class name="test.Step2_Flow1"/>
+<!--		 <class name="test.Step2_Flow1"/>-->
+         <class name="test.Step3Form"></class>
 
 	 </classes>
   	</test> 

@@ -8,6 +8,10 @@ public class Step3Form extends BaseTest {
     public void step3(){
 
         step3.clickStep3();
-        //step3.researchprojectPriority();
+        step3.projectLeadsDropdown();
+        step3.numberOfPatentGranted("77");
+        step3.HIndex();
+        step3.relevantExpertiesDropdown();
+        step3.projectMembers();
     }
 }

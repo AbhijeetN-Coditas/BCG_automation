@@ -31,6 +31,7 @@ public class Constants {
     protected static Step1 step1;
     protected static Step2_Flow1 step2Flow1;
     protected static Step3 step3;
+    protected static Step5 step5;
     protected static FileUpload fileUpload;
     public static String harshadAppPass;
     public static String harshadEmail;
