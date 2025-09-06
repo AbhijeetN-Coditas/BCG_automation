@@ -26,109 +26,109 @@ public class Step3 {
     }
 
     @FindBy(xpath = "//p[contains(text(),'Credentials, credibility and track record')]")
-    WebElement step3;
+    private WebElement step3;
 
     @FindBy(xpath = "//h6[contains(text(),'Project Lead 1')]")
-    WebElement ProjectLeadsDropdown;
+    private WebElement ProjectLeadsDropdown;
 
     @FindBy(xpath = "//label[contains(text(),'Name')]/following-sibling::div//input[@name='projectTeam.projectLeads[0].name']")
-    WebElement LeadName;
+    private WebElement LeadName;
 
     @FindBy(xpath = "//label[contains(text(),'Time contribution to this project (%)')]/following-sibling::div//input[@name='projectTeam.projectLeads[0].timeContributedToProject']")
-    WebElement ContributionPercentage;
+    private WebElement ContributionPercentage;
 
     @FindBy(xpath = "//label[contains(text(),'Email address')]/following-sibling::div//input[@name='projectTeam.projectLeads[0].email']")
-    WebElement EmailAddress;
+    private WebElement EmailAddress;
 
     @FindBy(xpath = "//label[contains(text(),'Designation')]/following-sibling::div//input[@name='projectTeam.projectLeads[0].designation']")
-    WebElement Designation;
+    private WebElement Designation;
 
     @FindBy(xpath = "//label[contains(text(),'Highest degree of qualification')]/following-sibling::div")
-    WebElement HighestDegreeDropdown;
+    private WebElement HighestDegreeDropdown;
 
     @FindBy(xpath = "//li[contains(text(),'Ph.D./Equivalent')]/parent::ul//li")
-    List<WebElement> HighestDegreeDropdownOptions;
+    private List<WebElement> HighestDegreeDropdownOptions;
 
     @FindBy(xpath = "//label[contains(text(),'Area of qualification')]/following-sibling::div//input[@name='projectTeam.projectLeads[0].qualificationArea']")
-    WebElement AreaOfQualification;
+    private WebElement AreaOfQualification;
 
     @FindBy(xpath = "//label[contains(text(),'Years of Relevant R&D Experience in project’s research area*')]/following-sibling::div")
-    WebElement YearsOfRDExperience;
+    private WebElement YearsOfRDExperience;
 
     @FindBy(xpath = "//li[contains(text(),'<10 Years')]/parent::ul//li")
-    List<WebElement> YearsOfRDExperienceOptions;
+    private List<WebElement> YearsOfRDExperienceOptions;
 
     @FindBy(xpath = "//p[starts-with(text(),'Has the lead in the past 10')]/following-sibling::div//button[contains(text(),'No')]")
-    WebElement past10yearExperience;
+    private WebElement past10yearExperience;
 
     @FindBy(xpath = "//label[starts-with(text(),'What is the number of patents granted')]/following-sibling::div//input")
-    WebElement NumbersOfPatentGranted;
+    private WebElement NumbersOfPatentGranted;
 
     @FindBy(xpath = "//input[@name='projectTeam.projectLeads[0].patents[0].patentNumber']")
-    WebElement PatentNumber1;
+    private WebElement PatentNumber1;
 
     @FindBy(xpath = "//input[@name='projectTeam.projectLeads[0].patents[0].patentTitle']")
-    WebElement PatentTitle1;
+    private WebElement PatentTitle1;
 
     @FindBy(xpath = "//span[contains(text(),'Upload PDF File')]")
-    WebElement PatentDocumentUpload;
+    private WebElement PatentDocumentUpload;
 
     @FindBy(xpath = "//input[@name='projectTeam.projectLeads[0].hIndex']")
-    WebElement HIndex;
+    private WebElement HIndex;
 
     @FindBy(xpath = "//input[@name='projectTeam.projectLeads[0].topCitedPapers[0].title']")
-    WebElement TitlePublishArticle;
+    private WebElement TitlePublishArticle;
 
     @FindBy(xpath = "//input[@name='projectTeam.projectLeads[0].topCitedPapers[0].publicationName']")
-    WebElement NameOfPublication;
+    private WebElement NameOfPublication;
 
     @FindBy(xpath = "//input[@name='projectTeam.projectLeads[0].topCitedPapers[0].numberOfCitations']")
-    WebElement NumberOfCitations;
+    private WebElement NumberOfCitations;
 
     @FindBy(xpath = "//label[starts-with(text(),'Please select all relevant experience applicable to the project')]/following-sibling::div")
-    WebElement RelevantYearExperienceDropdown;
+    private WebElement RelevantYearExperienceDropdown;
 
     @FindBy(xpath = "//li[contains(text(),'Advised/Mentored startups in project domain')]/parent::ul")
-    List<WebElement> RelevantYearExperienceDropdownOptions;
+    private List<WebElement> RelevantYearExperienceDropdownOptions;
 
     @FindBy(xpath = "//*[starts-with(text(),'Number of citations')]")
-    WebElement RelevantYearExperienceDropdownClose;
+    private WebElement RelevantYearExperienceDropdownClose;
 
     @FindBy(xpath = "//p[starts-with(text(),'Does the project lead have experience raising capital from')]/parent::div/child::div//button[contains(text(),'No')]")
-    WebElement RaisingCapitalNoButton;
+    private WebElement RaisingCapitalNoButton;
 
     @FindBy(xpath = "//input[@id='projectTeam.projectLeads[0].resume']/following-sibling::span")
-    WebElement ResumeUpload;
+    private WebElement ResumeUpload;
 
     @FindBy(xpath = "//label[contains(text(),'Expertise-based role*')]/parent::div/div")
-    WebElement ExpertiseBasedDropdown;
+    private WebElement ExpertiseBasedDropdown;
 
     @FindBy(xpath = "//li[contains(text(),'Analytical Chemist')]/parent::ul/li")
-    List<WebElement> ExpertiseBasedDropdownOptions;
+    private List<WebElement> ExpertiseBasedDropdownOptions;
 
     @FindBy(xpath = "//label[contains(text(),'Capacity on the project*')]/parent::div/child::div")
-    WebElement CapacityOfProjectDropdown;
+    private WebElement CapacityOfProjectDropdown;
 
     @FindBy(xpath = "//li[contains(text(),'Full-time on this project')]/parent::ul/li")
-    List<WebElement> CapacityOfProjectDropdownOptions;
+    private List<WebElement> CapacityOfProjectDropdownOptions;
 
     @FindBy(xpath = "//label[contains(text(),'Association with the applicant*')]/parent::div/div")
-    WebElement AssociationWithApplicantDropdown;
+    private WebElement AssociationWithApplicantDropdown;
 
     @FindBy(xpath = "//li[contains(text(),'In-house')]/parent::ul/li")
-    List<WebElement> AssociationWithApplicantDropdownOptions;
+    private List<WebElement> AssociationWithApplicantDropdownOptions;
 
     @FindBy(xpath = "//label[contains(text(),'Number of members*')]/parent::div/child::div//input")
-    WebElement NumberOfMembers;
+    private WebElement NumberOfMembers;
 
     @FindBy(xpath = "//label[contains(text(),'Current status of such members*')]/parent::div/div")
-    WebElement CurrentStatusMembersDropdown;
+    private WebElement CurrentStatusMembersDropdown;
 
     @FindBy(xpath = "//li[contains(text(),'Currently involved')]/parent::ul/li")
-    List<WebElement> CurrentStatusMembersDropdownOptions;
+    private List<WebElement> CurrentStatusMembersDropdownOptions;
 
     @FindBy(xpath = "//button[contains(text(),'Next')]")
-    WebElement NextButton;
+    private WebElement NextButton;
 
 
     public void clickStep3() {
