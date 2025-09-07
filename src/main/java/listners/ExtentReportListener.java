@@ -26,6 +26,7 @@ public class ExtentReportListener implements ITestListener, ISuiteListener {
 
         htmlreport = new ExtentSparkReporter(ExtendReportPath);
 
+
         report.attachReporter(htmlreport);
 
         htmlreport.config().setDocumentTitle("PRIP_Report");// Setting Report Document Title

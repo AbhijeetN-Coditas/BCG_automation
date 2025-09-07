@@ -72,14 +72,14 @@ public class ObjectRepository {
         return Step3Screen.get();
     }
 
-    public static Step5 Step5Instance(){
-        if(Step5Screen.get() == null)
-        {
+    public static Step5 Step5Instance() {
+        if (Step5Screen.get() == null) {
             Step5Screen.set(new Step5(ConfigDriver.getDriver()));
 
             log.info("Step2_Flow1 page object created");
         }
         return Step5Screen.get();
+    }
     public static Step4 Step4_Flow1Instance(){
         if(Step4Screen.get() == null)
         {

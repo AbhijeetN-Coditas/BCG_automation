@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class Step5 {
-    private static Logger log = Logger.getLogger(Step1.class);
+    private static Logger log = Logger.getLogger(Step5.class);
     private WebDriver driver;
 
     public Step5(WebDriver driver) {
