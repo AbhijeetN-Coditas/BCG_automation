@@ -31,8 +31,8 @@ public class SuiteSetup  extends Constants {
         FileInputStream is = new FileInputStream(new File(userConfig1));
 
         prop.load(is);
-        Constants.harshadAppPass=prop.getProperty("pass");
-        Constants.harshadEmail=prop.getProperty("mail");
+        Constants.harshadAppPass=prop.getProperty("harshadpass");
+        Constants.harshadEmail=prop.getProperty("harshadmail");
         TestData.SetOrderData(readExcelAsTestCases(InputExcelFile,"Sheet1"));
         ConfigDriver.setDriver(browser);
         pageInitialize();
@@ -46,6 +46,7 @@ public class SuiteSetup  extends Constants {
         step2Flow1 = ObjectRepository.Step2_Flow1Instance();
         step3 = ObjectRepository.Step3Instance();
         step5 = ObjectRepository.Step5Instance();
+        step4= ObjectRepository.Step4_Flow1Instance();
     }
     private void configureLogger() {
 

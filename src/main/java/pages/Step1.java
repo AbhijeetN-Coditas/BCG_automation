@@ -163,8 +163,6 @@ public class Step1 {
     public void upload1FinanceReport(String filePath) throws InterruptedException, AWTException {
         try {
             upload.fileUpload(filePath, FinanceReportUpload1);
-            //waitForUploadPopupToDisappear(driver, 10); // <-- wait for popup to disappear
-            //closeUploadPopupIfPresent(driver,10);
             waitForUploadPopupToDisappear(driver, 10);
             log.info("Uploaded File: " + filePath);
         } catch (Exception e) {

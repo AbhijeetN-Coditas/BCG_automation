@@ -33,11 +33,25 @@ public class ExtentReportListener implements ITestListener, ISuiteListener {
         htmlreport.config().setReportName("PRIP_Report");
     }
     @Override
+    public void onTestStart(ITestResult result) {
+
+        setLogger(result);
+    }
+    @Override
     public synchronized void onTestFailure(ITestResult result) {
 
         //String screenshot = ((TakesScreenshot) ConfigDriver.getDriver()).getScreenshotAs(OutputType.BASE64); // Take
 
     }
+    public synchronized void setLogger(ITestResult result) {
+        ExtentTest test;
+        try {
+             test = report.createTest(result.getMethod().getDescription());
+        } catch (Exception e) {
+            test = report.createTest(result.getMethod().getMethodName());
+        }
+        logger.set(test);
+}
     @Override
     public synchronized void onTestSkipped(ITestResult result) {
 

@@ -73,11 +73,38 @@ public class Step2_Flow1 {
     @FindBy(xpath = "//td[contains(text(),'Dengue and chikungunya')]")
     private WebElement DengueAndChikungunyaradiobtn;
 
-    @FindBy(xpath = "(//div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-10hwd1r'])[3]")
-    private WebElement TRL_dropdown;
+    @FindBy(xpath = "//div[text()='Select TRL stage']")
+    private WebElement CompletedTRLOfProjectDropdown;
 
-    @FindBy(xpath = "//li[contains(text(),'1. Ideation')]")
-    private WebElement TRL_options;
+    @FindBy(xpath = "//ul[@class='MuiList-root MuiList-padding MuiMenu-list css-ubifyk']/li")
+    private List<WebElement> TRL_options;
+
+    @FindBy(xpath = "//div[text()='Select status and requirement']")
+    private WebElement StatusAndRequirementsDropdown;
+
+    @FindBy(xpath = "//ul[@class='MuiList-root MuiList-padding MuiMenu-list css-ubifyk']/li")
+    private List<WebElement> StatusAndRequirementsDropdownOptions;
+
+    @FindBy(xpath = "//td[text()='Dengue and chikungunya']")
+    private WebElement SIPSubAreaOfProject;
+
+    @FindBy(xpath = "//span[text()='Upload PDF File']")
+    private WebElement UploadTRLPDFFile;
+
+    @FindBy(xpath = "//div[@role='radiogroup']//button[text()='Yes']")
+    private List<WebElement> YesButton;
+
+    @FindBy(xpath = "//input[@placeholder='Enter designation']")
+    private WebElement Designation;
+
+    @FindBy(xpath = "//h2[text()='Project title and research area']")
+    private WebElement closeDropDown;
+
+    @FindBy(xpath = "//div[@class='MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow']")
+    private WebElement Backdrop;
+
+    @FindBy(xpath = "//button[contains(text(),'Next')]")
+    private WebElement NextButton;
 
     public Step2_Flow1(WebDriver driver) {
         this.driver = driver;
@@ -94,6 +121,7 @@ public class Step2_Flow1 {
             log.info("Research Project Priority dropdown clicked.");
             researchProjectPriorityDropdownAllOptions.get(optionidx).click();
             log.info("Research Project Priority option selected.");
+            closeDropDown.click();
         } catch (Exception e) {
             log.info("Unable to select Research Project Priority dropdown option: " + e.getMessage());
             ExtentReportListener.logger("Unable to select Research Project Priority dropdown option: " + e.getMessage());
@@ -108,6 +136,7 @@ public class Step2_Flow1 {
             log.info("Research Project sub Priority dropdown clicked.");
             researchProjectSubPriorityDropdownAllOptions.get(optionidx).click();
             log.info("Research Project sub Priority option selected.");
+            closeDropDown.click();
         } catch (Exception e) {
             log.info("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
             ExtentReportListener.logger("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
@@ -121,6 +150,7 @@ public class Step2_Flow1 {
             log.info("Strategic Priority Innovations dropdown clicked.");
             SPIDropdownOptions.get(optionidx).click();
             log.info("Strategic Priority Innovations option selected.");
+            Backdrop.click();
         } catch (Exception e) {
             log.info("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
             ExtentReportListener.logger("Unable to select Research Project sub Priority dropdown option: " + e.getMessage());
@@ -128,5 +158,89 @@ public class Step2_Flow1 {
         }
     }
 
-    
+    public void selectSPISubAreaOfProject(){
+        try{
+            SIPSubAreaOfProject.click();
+            log.info("Strategic Priority Innovations checkbox selected");
+            ExtentReportListener.logger("Strategic Priority Innovations checkbox selected");
+
+        } catch (Exception e) {
+            log.info("Unable to select Strategic Priority Innovations sub area  ");
+            ExtentReportListener.logger("Unable to select Strategic Priority Innovations sub area : " + e.getMessage());
+            Assert.fail("Unable to select Strategic Priority Innovations sub area ");
+        }
+    }
+
+    public void selectCompleteTRLStage(int optionidx){
+        try{
+            CompletedTRLOfProjectDropdown.click();
+            log.info("Completed TRL of Project dropdown clicked.");
+            ExtentReportListener.logger("Completed TRL of Project dropdown clicked.");
+            TRL_options.get(optionidx).click();
+            log.info("Completed TRL of Project option selected.");
+            ExtentReportListener.logger("Completed TRL of Project option selected.");
+        } catch (Exception e) {
+            log.info("Unable to select Completed TRL of Project dropdown option: " + e.getMessage());
+            ExtentReportListener.logger("Unable to select Completed TRL of Project dropdown option: " + e.getMessage());
+            Assert.fail("Unable to select Completed TRL of Project dropdown option");
+        }
+    }
+
+    public void selectStatusAndRequirement(int optionidx){
+        try{
+            StatusAndRequirementsDropdown.click();
+            log.info("Status and Requirement dropdown clicked.");
+            ExtentReportListener.logger("Status and Requirement dropdown clicked.");
+            StatusAndRequirementsDropdownOptions.get(optionidx).click();
+            log.info("Status and Requirement option selected.");
+            ExtentReportListener.logger("Status and Requirement option selected.");
+        } catch (Exception e) {
+            log.info("Unable to select Status and Requirement dropdown option: " + e.getMessage());
+            ExtentReportListener.logger("Unable to select Status and Requirement dropdown option: " + e.getMessage());
+            Assert.fail("Unable to select Status and Requirement dropdown option");
+        }
+    }
+
+    public void uploadTRLCompletionDocument(String filePath){
+        try{
+            upload = new FileUpload();
+            upload.fileUpload(filePath,UploadTRLPDFFile);
+            log.info("TRL Completion Document uploaded successfully");
+            ExtentReportListener.logger("TRL Completion Document uploaded successfully");
+        } catch (Exception e) {
+            log.info("TRL Completion Document upload failed:" + e.getMessage());
+            ExtentReportListener.logger("TRL Completion Document upload failed: " + e.getMessage());
+            Assert.fail("TRL Completion Document upload failed");
+        }
+    }
+
+    public void clickYesButton(int idx){
+        try{
+            YesButton.get(idx).click();
+            log.info("Clicked on Yes button.");
+            ExtentReportListener.logger("Clicked on Yes button.");
+        } catch (Exception e) {
+            log.info("Unable to click on Yes button: " + e.getMessage());
+            ExtentReportListener.logger("Unable to click on Yes button: " + e.getMessage());
+            Assert.fail("Unable to click on Yes button");
+        }
+    }
+
+    public void enterDesignation(String designation){
+        try{
+            Designation.sendKeys(designation);
+            log.info("Entered designation: " + designation);
+            ExtentReportListener.logger("Entered designation: " + designation);
+        } catch (Exception e) {
+            log.info("Unable to enter designation: " + e.getMessage());
+            ExtentReportListener.logger("Unable to enter designation: " + e.getMessage());
+            Assert.fail("Unable to enter designation");
+        }
+    }
+
+    public void clickNext() {
+        NextButton.click();
+        NextButton.click();
+    }
+
 }
