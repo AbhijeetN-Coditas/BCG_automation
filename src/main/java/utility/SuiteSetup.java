@@ -44,6 +44,8 @@ public class SuiteSetup  extends Constants {
         dashboard = ObjectRepository.DashboardInstance();
         step1 = ObjectRepository.Step1Instance();
         step2Flow1 = ObjectRepository.Step2_Flow1Instance();
+        step3 = ObjectRepository.Step3Instance();
+        step5 = ObjectRepository.Step5Instance();
     }
     private void configureLogger() {
 
